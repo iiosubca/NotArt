@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-
-  <body>
-    <canvas id="canvas3d"></canvas>
-    <script type="module">
-      import { Application } from './runtime.js';
-      const canvas = document.getElementById('canvas3d');
-      const app = new Application(canvas);
-      app.load('./scene.splinecode');
-   
-    	
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
@@ -26,17 +16,13 @@
       }
     </style>
   </head>
-	
-
-title: //h1[@class="NotArt"]
-body: //article
-author: //span[@id="NotDesigner"]
-author_url: <https://iiosubca.github.io/NotArt/>
-published_date: //div[@class="e2-note-date"]
-channel: <https://t.me/justartornot>
-cover: //article//img.jpg
-	
-    
+  <body>
+    <canvas id="canvas3d"></canvas>
+    <script type="module">
+      import { Application } from './runtime.js';
+      const canvas = document.getElementById('canvas3d');
+      const app = new Application(canvas);
+      app.load('./scene.splinecode');
     </script>
   </body>
 </html>
